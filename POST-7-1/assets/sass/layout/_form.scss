@@ -1,6 +1,26 @@
 .form {
-  border: 1px solid $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem 1.5rem;
-  border-radius: 8px;
+  border-radius:$border-rounded;
+  width: 30%;
   margin: 2rem 4rem;
+
+
+  &__suscribe {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    border:none;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 4rem;
+    width: 60%;
+    background-color: $adl;
+  }
+}
+.form__body {
+
+  width: 40%;
 }

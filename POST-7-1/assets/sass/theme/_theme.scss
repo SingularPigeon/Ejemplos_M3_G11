@@ -4,6 +4,10 @@ html, body {
 
 // sections container estilo
 .section {
-  border-top: solid 2px $grey;
-  border-bottom: solid 2px $grey;
+  border-top: solid 2px $light-grey;
+  border-bottom: solid 2px $light-grey;
+
+  &__border-none {
+    border-top: solid 2px $light-grey;
+  }
 }
