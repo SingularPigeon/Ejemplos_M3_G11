@@ -30,6 +30,8 @@
   @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
 }
 .form__container {
+  @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
+
   display: flex;
  justify-content: center;
 }
